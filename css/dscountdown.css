@@ -1,0 +1,204 @@
+.dsCountDown:after{
+	content:'';
+    clear: both;
+}
+
+.dsCountDown{
+    display:inline-block;
+	*display: inline;
+    zoom: 1;
+}
+
+.dsCountDown.ds-white {
+	color: #000;
+	position: relative;
+	font-size: 1em;
+	padding: 10px;
+	border: 1px solid #dedede;
+	border-radius: 2px;
+	
+}
+
+.ds-white .ds-element {
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	border-right: 1px solid #dedede;
+	padding-right: 10px;
+}
+
+.dsCountDown.ds-white > .ds-element.ds-element-seconds {
+	margin-right: 0;
+	padding-right: 0;
+	border-right: 0;
+}
+
+.ds-white .ds-element-title {
+	font-size: 0.8em;
+	text-transform: lowercase;
+}
+
+.ds-white .ds-element-value {
+	font-size: 2.5em;
+	color: #333;
+	text-shadow: 2px 2px 0px #fff;
+}
+
+.dsCountDown.ds-black {
+	    color: #fff;
+    position: relative;
+    font-size: 1em;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    width: 100%;
+    margin: 1% 0px;
+}
+
+.ds-black .ds-element {
+	float: left;
+    text-align: center;
+    border-right:1px solid rgba(255, 255, 255, 0.28);
+    padding-right: 10px;
+    width: 25%;
+	    padding: 13px 0;
+}
+
+.dsCountDown.ds-black > .ds-element.ds-element-seconds {
+	margin-right: 0;
+	padding-right: 0;
+	border-right: 0;
+}
+
+.ds-black .ds-element-title {
+	    font-size: 0.9em;
+    text-transform: uppercase;
+    margin: 15px 0 5px 0;
+    letter-spacing: 2px;
+}
+
+.ds-black .ds-element-value {
+    font-size: 3em;
+	color: #fff;
+	text-shadow: 0px -2px 0px #222;
+}
+
+
+.dsCountDown.ds-red {
+	color: #fff;
+	position: relative;
+	font-size: 1em;
+	padding: 10px;
+	border: 1px solid #A80000;
+	border-radius: 2px;
+	
+
+
+.ds-red .ds-element {
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	border-right: 1px solid #BC0000;
+	padding-right: 10px;
+}
+
+.dsCountDown.ds-red > .ds-element.ds-element-seconds{
+	margin-right: 0;
+	padding-right: 0;
+	border-right: 0;
+}
+
+.ds-red .ds-element-title {
+	font-size: 0.8em;
+	text-transform: lowercase;
+}
+
+.ds-red .ds-element-value {
+	font-size: 2.5em;
+	color: #fff;
+	text-shadow: 0px -1px 0px #555;
+}
+
+.dsCountDown.ds-flat {
+	color: #000;
+	position: relative;
+	font-size: 1em;
+	border: 1px solid #cdcdcd;
+	background: #efefef;
+	box-shadow: 4px 4px 4px #888;
+}
+
+.ds-flat .ds-element {
+	float: left;
+	text-align: center;
+	border-right: 1px solid #dedede;
+	padding: 7px 17px;
+}
+
+.dsCountDown.ds-flat > .ds-element.ds-element-seconds {
+	border-right: 0;
+}
+
+.ds-flat .ds-element-title {
+	font-size: 0.8em;
+	text-transform: lowercase;
+	color: #666;
+}
+
+.ds-flat .ds-element-value {
+	font-size: 2.5em;
+	color: #000;
+}
+
+@media (max-width: 991px){
+	.ds-black .ds-element-value {
+      font-size: 2.2em;
+	}
+}
+@media (max-width:800px){
+	.ds-black .ds-element-value {
+      font-size: 2em;
+	}
+}
+@media (max-width: 667px){
+
+}
+@media (max-width: 640px){
+	.ds-black .ds-element-title {
+		font-size: 0.8em;
+		text-transform: uppercase;
+		margin: 7px 0 5px 0;
+		letter-spacing:1px;
+	}
+	.ds-black .ds-element-value {
+		font-size: 1.8em;
+	}
+}
+@media (max-width: 568px){
+	.ds-black .ds-element-value {
+		font-size: 1.6em;
+	}
+	
+}
+@media (max-width:480px){
+	  .ds-black .ds-element-value {
+			font-size: 1.4em;
+		}
+		.ds-black .ds-element-title {
+		font-size: 0.7em;
+		text-transform: uppercase;
+		margin: 7px 0 5px 0;
+		letter-spacing: 1px;
+	}
+}
+@media (max-width:375px){
+	.ds-black .ds-element-value {
+		font-size: 1.2em;
+	}
+}
+@media (max-width: 320px){
+	.ds-black .ds-element-title {
+		font-size: 0.6em;
+		text-transform: uppercase;
+		margin: 7px 0 5px 0;
+		letter-spacing: 1px;
+	}
+}
